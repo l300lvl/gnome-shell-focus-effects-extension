@@ -44,7 +44,7 @@ function update () {
                     let fx = actor.get_effect('desaturate');
                     if (!fx) {
                         fx = new Clutter.DesaturateEffect();
-                        actor.add_effect_with_name('desaturate', fx);
+//                        actor.add_effect_with_name('desaturate', fx);
                     }
                     Tweener.addTween(fx, { factor: 1, time: 2});
                 }
@@ -61,7 +61,7 @@ function update () {
         if(actor) {
             if(animations.desaturate) {
                 let fx = actor.get_effect('desaturate');
-                Tweener.addTween(fx, { factor: 0, time: 2});
+//                Tweener.addTween(fx, { factor: 0, time: 2});
             }
             let vertex = new Clutter.Vertex();
             actor.scale_center_x = vertex.x = actor.width / 2;
@@ -99,7 +99,7 @@ function enable() {
     animations = animations || {
         desaturate: true,
         focus: {
-            opacity: 255,
+            opacity: 355,
             time: 2
         },
         blur: {
