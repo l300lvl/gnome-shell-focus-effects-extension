@@ -1,3 +1,9 @@
+##Note: The quick hacks in this 3.6 fork remove the desaturation so that all windows become transparent,
+except for the focused window. This for some reason breaks the focus on the main window, which seems to be more
+frequently broken if the window is max'd/full screen. It can be remedied sometimes by opening a configuartion box
+of that window e.g about, sometimes.
+
+
 ## Gnome shell focus effects extension
 
 This extension allows you to add custom effects on window focus/blur.
